@@ -1,0 +1,247 @@
+/*FONDO*/
+body{
+    background-color: #dfdde1;
+    background-image: url("data:image/svg+xml,%3Csvg width='36' height='36' viewBox='0 0 36 36' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M36 0H0v36h36V0zM15.126 2H2v13.126c.367.094.714.24 1.032.428L15.554 3.032c-.188-.318-.334-.665-.428-1.032zM18 4.874V18H4.874c-.094-.367-.24-.714-.428-1.032L16.968 4.446c.318.188.665.334 1.032.428zM22.874 2h11.712L20 16.586V4.874c1.406-.362 2.512-1.468 2.874-2.874zm10.252 18H20v13.126c.367.094.714.24 1.032.428l12.522-12.522c-.188-.318-.334-.665-.428-1.032zM36 22.874V36H22.874c-.094-.367-.24-.714-.428-1.032l12.522-12.522c.318.188.665.334 1.032.428zm0-7.748V3.414L21.414 18h11.712c.362-1.406 1.468-2.512 2.874-2.874zm-18 18V21.414L3.414 36h11.712c.362-1.406 1.468-2.512 2.874-2.874zM4.874 20h11.712L2 34.586V22.874c1.406-.362 2.512-1.468 2.874-2.874z' fill='%23263a55' fill-opacity='0.67' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+/*INICIO TELECOS*/
+.telecos{
+    background-image: url('../imagenes/telco.jpg');
+    background-size: 1050px 130px;
+    margin-top: -0.5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1050px;
+    height: 130px;
+    border: 7px solid black;
+    border-radius: 1rem;
+   
+}
+
+.tel{
+    /*LETRA*/
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+
+    /*RECUADRO*/
+    cursor: pointer;
+    border: 0;
+    font-weight: bold;
+    padding: 15px 150px;
+    background-color: black ;
+    opacity: 0.7;
+}
+
+.telecos{
+    display: flex;  /* organinzar elementos*/
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* FIN TELECO*/
+
+/** descripcion pagina web*/
+
+.est{
+    /*LETRA*/
+    color: #F7E7CE;
+    text-decoration: none;
+    font-size: 15px;
+
+    /*RECUADRO*/
+    cursor: pointer;
+    border: 0;
+    font-weight: bold;
+    padding: 5px 50px;
+    background-color: black ;
+    opacity: 0.8;
+}
+
+.estudios{
+    display: flex;  /* organinzar elementos*/
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*prog1*/
+.programacion{
+    background-image: url('../imagenes/ab.jpg');
+    background-size: 950px 450px;
+    width: 950px;
+    height: 450px;
+
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;  
+  }
+
+.prog1{
+    display: flex;  /* organinzar elementos*/
+    text-align: top;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 3%;
+  }
+
+.prog1 {
+    position: relative;
+    color: black;
+    text-decoration: none;
+    font-size: 50px;  
+}
+
+.prog1::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 90%;
+    height: 3px;
+    left: auto;
+    bottom: 5px;
+   
+}
+
+.volver{
+    display: flex;  /* organinzar elementos*/
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.volver{
+    position: relative;
+    color: black;
+    font-weight: bold;
+    letter-spacing: -2px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 23%;
+    margin-left: 85%;
+}
+
+.fh{
+    position: relative;
+    display: block;
+    width: 100px;
+}
+
+.letra{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    background-color: black;
+    color: black; 
+    font-size: 8px; 
+    width: 25%;
+    margin-left: 800%;
+    margin-top: -15px;
+    
+}
+
+.flecha{
+    width: 0;
+    height: 0;
+    border-top: 17px solid transparent;
+    border-bottom: 17px solid transparent;
+    border-right: 17px solid black;
+    position: absolute;
+    left: 790%;
+    margin-top: -23px;
+    
+}
+
+/*flecha*/
+
+
+/*MENU*/
+.pg1 ul{
+    list-style:none ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.pg1 {
+    list-style:none ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.pg1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.pg1 a[href="#20"]{
+    font-size: 25px;
+}
+
+.pg1 li a{
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+    text-decoration: none;
+    padding: 5px 60px;
+    display: block;
+}
+
+.pg1 li a:hover{
+    background-color: #434343;
+}
+
+.pg1 > li{
+    float: left;
+}
+
+.pg1 li ul{
+    display: none;
+    position: absolute;
+    min-width: 128.5px;
+}
+
+.pg1 li:hover > ul{
+    display: block;
+}
+
+.pg1 li ul li{
+    position: relative;
+}
+
+
+.pg1 li ul li > a::after{
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: 5px;
+}
+
+.pg1 li ul li > a:hover::after {
+    width: 90%;
+    left: 5%;
+}
+
+.pg1 li ul{
+    left: 37.5%;
+    width: 25%;
+}

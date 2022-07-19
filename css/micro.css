@@ -1,0 +1,376 @@
+body{
+    background-color: #dfdde1;
+    background-image: url("data:image/svg+xml,%3Csvg width='36' height='36' viewBox='0 0 36 36' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M36 0H0v36h36V0zM15.126 2H2v13.126c.367.094.714.24 1.032.428L15.554 3.032c-.188-.318-.334-.665-.428-1.032zM18 4.874V18H4.874c-.094-.367-.24-.714-.428-1.032L16.968 4.446c.318.188.665.334 1.032.428zM22.874 2h11.712L20 16.586V4.874c1.406-.362 2.512-1.468 2.874-2.874zm10.252 18H20v13.126c.367.094.714.24 1.032.428l12.522-12.522c-.188-.318-.334-.665-.428-1.032zM36 22.874V36H22.874c-.094-.367-.24-.714-.428-1.032l12.522-12.522c.318.188.665.334 1.032.428zm0-7.748V3.414L21.414 18h11.712c.362-1.406 1.468-2.512 2.874-2.874zm-18 18V21.414L3.414 36h11.712c.362-1.406 1.468-2.512 2.874-2.874zM4.874 20h11.712L2 34.586V22.874c1.406-.362 2.512-1.468 2.874-2.874z' fill='%23263a55' fill-opacity='0.67' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+/*INICIO TELECOS*/
+.telecos{
+    background-image: url('../imagenes/telco.jpg');
+    background-size: 1050px 130px;
+    margin-top: -0.5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1050px;
+    height: 130px;
+    border: 7px solid black;
+    border-radius: 1rem;
+   
+}
+
+.tel{
+    /*LETRA*/
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+
+    /*RECUADRO*/
+    cursor: pointer;
+    border: 0;
+    font-weight: bold;
+    padding: 15px 150px;
+    background-color: black ;
+    opacity: 0.7;
+}
+
+.telecos{
+    display: flex;  /* organinzar elementos*/
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* FIN TELECO*/
+
+/** descripcion pagina web*/
+
+.est{
+    /*LETRA*/
+    color: #F7E7CE;
+    text-decoration: none;
+    font-size: 15px;
+
+    /*RECUADRO*/
+    cursor: pointer;
+    border: 0;
+    font-weight: bold;
+    padding: 5px 50px;
+    background-color: black ;
+    opacity: 0.8;
+}
+
+.estudios{
+    display: flex;  /* organinzar elementos*/
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*prog1*/
+.programacion{
+    background-image: url('../imagenes/ab.jpg');
+    background-size: 950px 600px;
+    width: 950px;
+    height: 600px;
+
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;  
+  }
+
+.prog2{
+    display: flex;  /* organinzar elementos*/
+    text-align: top;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 3%;
+  }
+
+.prog2 {
+    position: relative;
+    color: black;
+    text-decoration: none;
+    font-size: 50px;  
+}
+
+.prog2::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 60%;
+    height: 3px;
+    left: auto;
+    bottom: 5px;
+   
+}
+
+.volver{
+    display: flex;  /* organinzar elementos*/
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.volver{
+    position: relative;
+    color: black;
+    font-weight: bold;
+    letter-spacing: -2px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 40%;
+    margin-left: 85%;
+}
+
+.fh{
+    position: relative;
+    display: block;
+    width: 100px;
+    margin-top: -15px;
+}
+
+.letra{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    background-color: black;
+    color: black; 
+    font-size: 8px; 
+    width: 25%;
+    margin-left: 800%;
+    margin-top: -15px;
+    
+}
+
+.flecha{
+    width: 0;
+    height: 0;
+    border-top: 17px solid transparent;
+    border-bottom: 17px solid transparent;
+    border-right: 17px solid black;
+    position: absolute;
+    left: 790%;
+    margin-top: -23px;
+    
+}
+
+/*flecha*/
+
+
+/*MENU*/
+.pg2 ul{
+    list-style:none ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+
+}
+
+.pg2 {
+    list-style:none ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.pg2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.pg2 a[href="#20"]{
+    font-size: 20px;
+}
+
+.pg2 li a{
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.pg2 li a:hover{
+    background-color: #434343;
+}
+
+.pg2 > li{
+    float: left;
+}
+
+.pg2 li ul{
+    display: none;
+    position: absolute;
+    min-width: 128.5px;
+}
+
+.pg2 li:hover > ul{
+    display: block;
+}
+
+.pg2 li ul li{
+    position: relative;
+}
+
+
+.pg2 li ul li ul{
+    right: -128.5px;
+    top: -55px;
+}
+
+.pg2 li ul li ul li ul{
+    right: -128.5px;
+    top: -55px;
+}
+
+.pg2 li ul li ul li ul li ul{
+    right: -128.5px;
+    top: -55px;
+}
+
+.pg2 li ul li ul li ul li ul li ul{
+    right: -128.5px;
+    top: -55px;
+}
+
+
+.pg2 li ul li ul li > a::after{
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: 5px;
+}
+
+.pg2 li ul li ul li> a:hover::after {
+    width: 50%;
+    left: 25%;
+}
+
+/*P1*/
+
+.pg2 li ul li .P1{
+    top: 5px;  
+}
+
+.pg2 li ul li .P1 .P1-S1{
+    top: -10px;  
+}
+
+.pg2 li ul li .P1 .P1-S1 li ul{
+    top: 0px;  
+}
+
+.pg2 li ul li .P1 .P1-S2 li ul{
+    top: 0px;  
+}
+/*************/
+
+/*P2*/
+
+.pg2 li ul li .P2{
+    top: -30px;  
+}
+
+.pg2 li ul li .P2 .P2-S1{
+    top: -30px;  
+}
+
+.pg2 li ul li .P2 .P2-S1 li ul{
+    top: 0px;  
+}
+
+.pg2 li ul li .P2 .P2-S2{
+    right: -160px;
+    top: -50px;  
+}
+
+.pg2 li ul li .P2 .P2-S2 li ul{
+    top: 0px;  
+}
+
+/*************/
+
+/*P3*/
+.pg2 li ul li .P3{
+    top: -70px;  
+}
+
+.pg2 li ul li .P3 .P3-S1{
+    top: -30px;  
+}
+
+.pg2 li ul li .P3 .P3-S1 li ul{
+    top: 0px;  
+}
+
+.pg2 li ul li .P3 .P3-S1 .E2{
+    top: -30px;  
+}
+
+.pg2 li ul li .P3 .P3-S2{
+    top: -15px;  
+}
+
+.pg2 li ul li .P3 .P3-S2 .E5{
+    top: -90px;  
+}
+
+.pg2 li ul li .P3 .P3-S3{
+    top:  -110px;  
+}
+
+.pg2 li ul li .P3 .P3-S4{
+    top:  -140px;  
+}
+
+/*EX OTOÑO*/
+.pg2 li .OT li ul{
+    top: 0px;  
+}
+
+.pg2 li .OT .Hito1{
+    top: -35px;  
+}
+/***************/
+
+/*Primavera*/
+.pg2 li .PRIM li ul{
+    top: 0px;  
+}
+
+.pg2 li .PRIM .Hito1{
+    top: -35px;  
+}
+
+.L1 .vent{
+    top: 5px; 
+}
+
+.L1 .vent0{
+    top: -15px; 
+}
+
+.L1 .d18{
+    top: -30px; 
+}
+
+.L1 li ul li ul li{
+    top: 55px; 
+}
