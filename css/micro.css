@@ -297,7 +297,7 @@ body{
 }
 
 .pg2 li ul li .P2 .P2-S2{
-    right: -160px;
+    right: -155px;
     top: -50px;  
 }
 
@@ -313,7 +313,7 @@ body{
 }
 
 .pg2 li ul li .P3 .P3-S1{
-    top: -30px;  
+    top: -20px;  
 }
 
 .pg2 li ul li .P3 .P3-S1 li ul{
@@ -328,16 +328,20 @@ body{
     top: -15px;  
 }
 
+.pg2 li ul li .P3 .P3-S2 .E4{
+    top: 0px;  
+}
+
 .pg2 li ul li .P3 .P3-S2 .E5{
-    top: -90px;  
+    top: -25px;  
 }
 
 .pg2 li ul li .P3 .P3-S3{
-    top:  -110px;  
+    top:  -10px;  
 }
 
 .pg2 li ul li .P3 .P3-S4{
-    top:  -140px;  
+    top:  -30px;  
 }
 
 /*EX OTOÑO*/
