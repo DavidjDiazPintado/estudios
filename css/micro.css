@@ -65,6 +65,33 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+   
+}
+
+/** NOTA ********/
+.not{
+    /*LETRA*/
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+    /*RECUADRO*/
+    cursor: pointer;
+    border: 0;
+    font-weight: bold;
+    padding: 3px 30px;
+    background-color: black ;
+    opacity: 0.8;
+}
+
+.nota{
+    display: flex;  /* organinzar elementos*/
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -4%;
+
 }
 
 
